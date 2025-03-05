@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content=">Website UPTD LABORATURIUM DLH KABUPATEN LAHAT">
+    <meta name="keywords" content="">
+    <meta http-equiv="Copyright" content="">
+    <meta name="author" content="">
+    <meta property="og:image" itemprop="image" content="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>UPTD LABORATURIUM DLH KABUPATEN LAHAT</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&amp;family=Inter:wght@700;800&amp;display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="../cdn.jsdelivr.net/npm/bootstrap-icons%401.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="assets/frontend/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/frontend/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/frontend/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Select -->
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/select2%404.1.0-rc.0/dist/css/select2.min.css" />
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/select2-bootstrap-5-theme%401.3.0/dist/select2-bootstrap-5-theme.min.css" />
+
+    <!-- Template Stylesheet -->
+    <link href="assets/frontend/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <img src="images/dlh.png" alt="" style="height:50px;">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link  active ">Beranda</a>
+                                                                                      <a href="#" class="nav-item nav-link">Profil</a>
+                        								
+                                                                                            <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Documentasi</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                                                        <a href="#" class="dropdown-item">Foto</a>
+                                                        <a href="#" class="dropdown-item">Video</a>
+                                                    </div>
+                    </div>
+                          	
+                        								
+                                          	
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0">
+            <div class="owl-carousel header-carousel position-relative">
+                                                    <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="dataweb/headerslider/benner001.png" alt="">
+                </div>
+                                    <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="dataweb/headerslider/banner2.jpg" alt="">
+                </div>
+                    				            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="text-white">Search Document</h5>
+                </div>
+                <div class="row g-2">
+                    <div class="col-md-11">
+                        <div class="row g-2">
+                            <div class="col-md-5">
+                                <input type="text" class="form-control border-1 rounded-1" placeholder="Judul" />
+                            </div>
+                            <div class="col-md-1">
+                                <input type="text" class="form-control border-1 rounded-1" placeholder="Nomor" />
+                            </div>
+                            <div class="col-md-1">
+                                <input type="text" class="form-control border-1 rounded-1" placeholder="Tahun" />
+                            </div>
+                            <div class="col-md-5">
+                                <select class="form-select border-0" id="single-select-field" data-placeholder="Pilih Documentasi">
+                                    <option></option>
+                                                                            <option value="1">Foto Kabupaten</option>
+                                                                            <option value="2">Video</option>
+                                                                            <option value="3">Berita</option>
+                                                                            <option value="4">Kegiatan</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <button class="btn btn-dark border-1 w-100 rounded-1">Cari</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+
+        <!-- Category Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Hasil Pengecekan Lab</h1>
+                <div class="row g-4">
+                                                                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="#">
+                            <i class="fa fa-3x fa-newspaper text-primary mb-4"></i>
+                            <h6 class="mb-3">Sempel AiR</h6>
+                            <p class="mb-0">Jumlah : </p>
+                        </a>
+                    </div>
+                                            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <a class="cat-item rounded p-4" href="#">
+                            <i class="fa fa-3x fa-newspaper text-primary mb-4"></i>
+                            <h6 class="mb-3">sempel Udara</h6>
+                            <p class="mb-0">Jumlah : </p>
+                        </a>
+                    </div>
+                                            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="#">
+                            <i class="fa fa-3x fa-newspaper text-primary mb-4"></i>
+                            <h6 class="mb-3">Sempel Logam</h6>
+                            <p class="mb-0">Jumlah : </p>
+                        </a>
+                    </div>
+                                            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <a class="cat-item rounded p-4" href="#">
+                            <i class="fa fa-3x fa-newspaper text-primary mb-4"></i>
+                            <h6 class="mb-3">Lain-Lainya</h6>
+                            <p class="mb-0">Jumlah : </p>
+                        </a>
+                    </div>
+                                                            </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+        <!-- Jobs Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Hasil Lab Sempel</h1>
+                                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>31 Desember 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>31 Desember 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>31 Desember 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>31 Desember 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>31 Desember 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>4 Januari 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>20 Maret 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>21 Maret 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>21 Maret 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                            <div class="job-item p-4 mb-4">
+                    <div class="row g-4">
+                        <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="images/446926.png" alt="" style="width: 80px; height: 80px;"> <div class="text-start ps-4">
+                                <h5 class="text-primary mb-3">Sempel Hasil Laboraturium PT.</h5>
+                                <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>21 Maret 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                </div>
+        </div>
+        <!-- Jobs End -->        
+
+        <!-- Jobs Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Berita Terkini</h1>
+                <div class="row g-4">
+                                                                                <div class="col-sm-6 col-md-6 ">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h5 class="text-primary"> </h5>
+                                        <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>5 Maret 2025</span>
+                                    </div>
+                                </div>
+                                <p>       </p>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-sm-6 col-md-6 ">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h5 class="text-primary"> </h5>
+                                        <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>5 Maret 2025</span>
+                                    </div>
+                                </div>
+                                <p>        </p>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-sm-6 col-md-6 ">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h5 class="text-primary">  </h5>
+                                        <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>5 Maret 2025</span>
+                                    </div>
+                                </div>
+                                <p>    </p>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-sm-6 col-md-6 ">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h5 class="text-primary">  </h5>
+                                        <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>5 Maret 2025</span>
+                                    </div>
+                                </div>
+                                <p>&nbsp;  </p>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-sm-6 col-md-6 ">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h5 class="text-primary"> </h5>
+                                        <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>5 Maret 2025</span>
+                                    </div>
+                                </div>
+                                <p>    </p>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-sm-6 col-md-6 ">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h5 class="text-primary">  </h5>
+                                        <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>5 Maret 2025</span>
+                                    </div>
+                                </div>
+                                <p>   </p>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-sm-6 col-md-6 ">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h5 class="text-primary">  </h5>
+                                        <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>5 Maret 2025</span>
+                                    </div>
+                                </div>
+                                <p>  </p>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-sm-6 col-md-6 ">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-12 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h5 class="text-primary">  </h5>
+                                        <span class="text-truncate me-3"><i class="far fa-calendar-alt text-primary me-2"></i>5 Maret 2025</span>
+                                    </div>
+                                </div>
+                                <p>   </p>
+                            </div>
+                        </div>
+                    </div>
+                                                    </div>
+            </div>
+        </div>
+        <!-- Jobs End -->        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">Company</h5>
+                        <a class="btn btn-link text-white-50" href="#">About Us</a>
+                        <a class="btn btn-link text-white-50" href="#">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="#">Our Services</a>
+                        <a class="btn btn-link text-white-50" href="#">Privacy Policy</a>
+                        <a class="btn btn-link text-white-50" href="#">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="#">About Us</a>
+                        <a class="btn btn-link text-white-50" href="#">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="#">Our Services</a>
+                        <a class="btn btn-link text-white-50" href="#">Privacy Policy</a>
+                        <a class="btn btn-link text-white-50" href="#">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">Contact</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Kolonel H. Barlian Lahat</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0731-321785</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>jdih@lahatkab.go.id</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
+                            Copyright &copy; 2025 Dikelola dan Dikembangkan Oleh UPTD Laboraturium DLH Pemerintah Kabupaten Lahat
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="../code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../cdn.jsdelivr.net/npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/frontend/lib/wow/wow.min.js"></script>
+    <script src="assets/frontend/lib/easing/easing.min.js"></script>
+    <script src="assets/frontend/lib/waypoints/waypoints.min.js"></script>
+    <script src="assets/frontend/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Select -->
+    <script src="../cdn.jsdelivr.net/npm/select2%404.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $( '#single-select-field' ).select2( {
+                theme: "bootstrap-5",
+                width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+                placeholder: $( this ).data( 'placeholder' ),
+            } );
+        });
+    </script>
+    <!-- Template Javascript -->
+    <script src="assets/frontend/js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from jdih.lahatkab.go.id/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Mar 2025 05:59:48 GMT -->
+</html>
